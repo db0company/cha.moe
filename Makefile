@@ -5,9 +5,12 @@ CSS=css/style.css
 
 all: install $(CSS)
 
-install: bower_components
+install:
 	bower install
 
 $(CSS): $(LESS_DEPS)
 	mkdir -p css
 	lessc --compress $(LESS) > $(CSS)
+
+clean:
+	rm -r css bower_components
