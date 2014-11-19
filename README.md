@@ -9,7 +9,7 @@ Install
 -------
 
 ```shell
-sudo npm install -g less && make
+sudo npm install -g bower less && make
 ```
 
 Quick Launch
