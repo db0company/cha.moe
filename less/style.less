@@ -745,21 +745,34 @@ body {
     img.profile {
 	border: @brand-primary 5px solid;
 	border-color: white;
-	width: 150px;
+	width: 180px;
     }
     .tagline {
 	text-transform: none;
 	font-size: 3.5em;
 	line-height: 1.2em;
     }
-    .important-skills, .secondary-skills {
-	padding: 2%;
+    .important-skills .left {
+	font-size: 0.8em;
+    }
+    .important-skills, .secondary-skills, .third-skills {
+	padding: 2% 0;
+	small {
+	    font-size: 0.7em;
+	    opacity: 0.6;
+	}
     }
     .important-skills {
 	font-size: 3em;
     }
     .secondary-skills {
-	font-size: 2em;
+	font-size: 1.8em;
+    }
+    .third-skills {
+	font-size: 1.6em;
+	.left {
+	    font-size: 0.8em;
+	}
     }
     .hire-buttons {
 	margin-top: 40px;
